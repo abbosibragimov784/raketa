@@ -406,7 +406,7 @@ public class SpaceshipBehavior : MonoBehaviour
 
     private void VelocityFeedback()
     {
-        m_CanvasBehavior.UpdateVelocityFeedback(m_Rigidbody2D.velocity.y);
+        m_CanvasBehavior.UpdateVelocityFeedback(m_Rigidbody2D.linearVelocity.y);
     }
 
     private void FuelFeedback()
